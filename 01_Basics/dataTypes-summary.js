@@ -16,7 +16,7 @@ let userEmail;                        // undefined
 
 const id = Symbol('123')              // symbol
 const anotherId = Symbol('123')
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 const bigNumber = 233453464562342365n // BigInt
 
@@ -36,10 +36,10 @@ const myFunction = function() {
     console.log("Hello World")
 }
 
-console.log(typeof outsideTemp)
-console.log(typeof scoreValue)
-console.log(typeof myFunction)
-console.log(typeof anotherId)
+// console.log(typeof outsideTemp)
+// console.log(typeof scoreValue)
+// console.log(typeof myFunction)
+// console.log(typeof anotherId)
 
 // Master this Objects and Browser web events/ browser events
 // to master Javascript.
@@ -85,3 +85,28 @@ console.log(typeof anotherId)
 // to potential runtime errors if not handled carefully. Static typing, 
 // on the other hand, provides better type safety at the cost of some 
 // initial verbosity and strictness.
+
+// ******************************************************************
+
+// Stack Memory used in (Primitive Data Types)
+// Heap Memory used in (Non-Primitive Data Types)
+
+let youtubeName = "YashPanchal"
+
+let anotherName = youtubeName
+anotherName = "ChaiAurCode"
+
+// console.log(youtubeName);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "yash@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
