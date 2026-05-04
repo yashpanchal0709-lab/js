@@ -1,3 +1,5 @@
+//Conditions
+
 // if
 const isUserloggedIn = true
 const temperature = 41
@@ -9,7 +11,8 @@ const temperature = 41
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==(checks value), !=, 
+// ===(checks value and datatype also), !==
 
 // const score = 200
 
@@ -22,7 +25,7 @@ const temperature = 41
 
 
 // const balance = 1000
-
+//implicit 
 // if (balance > 500) console.log("test"),console.log("test2");
 
 // if (balance < 500) {
@@ -38,6 +41,8 @@ const temperature = 41
 
 // }
 
+
+//Online shopping example:
 const userLoggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
@@ -47,6 +52,7 @@ if (userLoggedIn && debitCard && 2==3) {
     console.log("Allow to buy course");
 }
 
+// || = Multiple condition check
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
