@@ -1,4 +1,4 @@
-// for of
+// for of loops for arrays
 
 // ["", "", ""]
 // [{}, {}, {}]
@@ -14,8 +14,8 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
-
+// Maps : Unique values and no duplicates values
+// For of loop
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")

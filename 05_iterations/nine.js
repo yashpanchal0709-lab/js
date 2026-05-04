@@ -1,3 +1,6 @@
+//Reduce: the reduce() executesa user supplied reducer callback function 
+// on each element pf the array
+
 const myNums = [1, 2, 3]
 
 // const myTotal = myNums.reduce(function (acc, currval) {

@@ -1,3 +1,5 @@
+//For in loop for objects
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
@@ -15,6 +17,7 @@ for (const key in programming) {
     //console.log(programming[key]);
 }
 
+// Maps are not iterable
 // const map = new Map()
 // map.set('IN', "India")
 // map.set('USA', "United States of America")

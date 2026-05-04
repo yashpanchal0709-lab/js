@@ -1,5 +1,8 @@
+// For each loop for arrays
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
+// callback function:- due to callback function doesn't have a name
 // coding.forEach( function (val){
 //     console.log(val);
 // } )
